@@ -1,4 +1,5 @@
 # Surge
+CHECK THE RELEASES TAB FOR THE LATEST VERSION OF THIS EXTENSION
 A new tab extension built for developers
 This is a simple chrome extension
 To make this work:

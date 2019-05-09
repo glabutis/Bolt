@@ -3,7 +3,7 @@
 
   "name": "Bolt",
   "description": "A new tab extension for chrome",
-  "version" : "1.5.0",
+  "version" : "2.0",
 
 
   "chrome_url_overrides" : {

@@ -1,14 +1,13 @@
-*{
+* {
   padding: 0px;
   margin: 0px;
-
 }
 
-body{
-  font-family: 'Roboto', sans-serif;
-  background-image: url("download.png")
+body {
+  font-family: "Roboto", sans-serif;
+  background-image: url("download.png");
 }
-.time{
+.time {
   text-align: center;
   padding-top: 9%;
   font-size: 250px;
@@ -17,8 +16,7 @@ body{
   color: #36454f;
 }
 
-
-.Hello{
+.Hello {
   color: #353535;
   font-size: 30px;
   text-align: center;
@@ -27,24 +25,24 @@ body{
   cursor: default;
 }
 
-.time{
+.time {
   cursor: default;
 }
 
-.icons{
+.icons {
   margin: 0;
   padding: 3%;
   display: flex;
   justify-content: center;
 }
 
-ul{
+ul {
   position: relative;
   display: flex;
-  justify: space-between;
+  justify-content: space-between;
 }
 
-ul li{
+ul li {
   position: relative;
   list-style: none;
   width: 70px;
@@ -52,10 +50,9 @@ ul li{
   border-radius: 15%;
   margin: 0 30px;
   transform: rotate(-30deg) skew(25deg);
-
 }
 
-ul li span{
+ul li span {
   position: absolute;
   top: 0;
   left: 0;
@@ -69,43 +66,43 @@ ul li span{
   justify-content: center;
   color: #fff;
   font-size: 50px !important;
-  background:black;
+  background: black;
   padding: 0 3%;
 }
 
-ul li:hover span:nth-child(5){
+ul li:hover span:nth-child(5) {
   transform: translate(40px, -40px);
   opacity: 1;
 }
-ul li:hover span:nth-child(4){
+ul li:hover span:nth-child(4) {
   transform: translate(30px, -30px);
-  opacity: .8;
+  opacity: 0.8;
 }
-ul li:hover span:nth-child(3){
+ul li:hover span:nth-child(3) {
   transform: translate(20px, -20px);
-  opacity: .6;
+  opacity: 0.6;
 }
-ul li:hover span:nth-child(2){
+ul li:hover span:nth-child(2) {
   transform: translate(10px, -10px);
-  opacity: .4;
+  opacity: 0.4;
 }
-ul li:hover span:nth-child(1){
+ul li:hover span:nth-child(1) {
   transform: translate(0px, 0px);
-  opacity: .2;
+  opacity: 0.2;
 }
 
-ul li:nth-child(1) span{
+ul li:nth-child(1) span {
   background: #fb3958;
 }
-ul li:nth-child(2) span{
-  background: #FF9900;
+ul li:nth-child(2) span {
+  background: #ff9900;
 }
-ul li:nth-child(3) span{
-  background: #3C5A99;
+ul li:nth-child(3) span {
+  background: #3c5a99;
 }
-ul li:nth-child(4) span{
+ul li:nth-child(4) span {
   background: #c4302b;
 }
-ul li:nth-child(5) span{
+ul li:nth-child(5) span {
   background: #24292e;
 }
